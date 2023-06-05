@@ -1,0 +1,11 @@
+body{
+    background-image: url("../FoodImages/Lasagna.jpeg");
+    image-rendering: auto;
+    border-image: auto;
+}
+h1{
+    color: black
+}
+li{
+    color: green
+}
