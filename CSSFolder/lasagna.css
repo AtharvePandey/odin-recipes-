@@ -1,11 +1,45 @@
 img{
     height: 200px;
     width: 200px;
+    image-rendering:auto;
+    image-orientation: inherit;
+    border-image: auto;
+    color:black;
+}
+a{
+    color: black;
+}
+
+*{
+    background-color: lightskyblue;
+    text-align: justify;
+    color: white; 
+
+}
+.title{
+    color: black;
+}
+.underline{
+    color:black;
+}
+.numsList{
+    color: black;
 }
 
 h1{
     color: black;
 }
 h4{
-    color: red;
+    color: black;
+}
+
+.Layer{
+    content: counter(item);
+    margin-right: 5px;
+    font-size: 80%;
+    background-color: lightskyblue;
+    color: black;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 3px;
 }
